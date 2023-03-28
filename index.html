@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Eduwork</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <!--Navbar-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white">
+      <div class="container-fluid">
+        <img src="img/logo.png" alt="logo" style="width: 150px" />
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active" href="#home"><b>Home</b></a>
+            </li>
+            <li
+              class="nav-item dropdown active"
+              style="text-decoration-color: black"
+            >
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                <b>Kelas</b>
+              </a>
+              <ul class="dropdown-menu">
+                <li>
+                  <a class="dropdown-item" href="#">Private Mentoring</a>
+                </li>
+                <li><a class="dropdown-item" href="#">Bootcamp</a></li>
+                <li><a class="dropdown-item" href="#">Webinar</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="#hubungiadmin">
+                <b>Hubungi Admin</b></a
+              >
+            </li>
+          </ul>
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                <b>Member</b>
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Account</a></li>
+                <li><a class="dropdown-item" href="#">My Class</a></li>
+                <li><a class="dropdown-item" href="#">Logout</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!--Main Content Bagian Kiri-->
+    <div class="row">
+      <div class="col-6">
+        <h1><b>Pelatihan & Penyaluran Kerja.</b></h1>
+        <ol class="left-side">
+          <li class="list-item one">
+            <span>Daftar, Get Free Class!</span>
+          </li>
+          <p>Join komunitas belajar, dapatkan akses kelas & materi gratis</p>
+          <li class="list-item two"><span>Belajar Intensif</span></li>
+          <p>
+            Belajar didampingi virtual assistant & mentor expert via group &
+            1-on-1 zoom mentoring
+          </p>
+          <li class="list-item three">
+            <span>Penyaluran Kerja Dijamin</span>
+          </li>
+          <p>Dapatkan pekerjaan dengan gaji s.d 10jt lebih</p>
+        </ol>
+        <button type="button" class="btn btn-primary position-relative">
+          Daftar Gratis
+          <span
+            class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger"
+          >
+            Free
+            <span class="visually-hidden">unread messages</span>
+          </span>
+        </button>
+        <button type="button" class="btn btn-warning">Konsultasi Dulu</button>
+        <div class="students-mentor">
+          <p><b>54,374</b> Students & <b>131</b> Mentor has joined!</p>
+        </div>
+      </div>
+      <!--Main Content Bagian Kanan-->
+      <div class="col-6">
+        <img src="img/t-aniq.png" alt="foto" />
+        <div class="card">
+          <div class="card-body">
+            "Sebelumnya saya tidak punya background IT karena jurusan Kimia,
+            setelah saya belajar coding di Eduwork, Saya berhasil diterima kerja
+            di Tokopedia sebagai Programmer."
+          </div>
+        </div>
+      </div>
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

@@ -1,0 +1,66 @@
+body {
+  padding-left: 70px;
+  padding-right: 70px;
+  font-family: poppins;
+}
+
+.col-6 {
+  padding: 50px;
+}
+
+.col-6 h1 {
+  font-size: 60px;
+}
+.col-6 ol {
+  padding-top: 50px;
+  counter-reset: item;
+  list-style-type: none;
+  line-height: 2.2;
+  margin-left: -40px;
+}
+
+.col-6 ol li {
+  display: block;
+  position: relative;
+}
+
+.col-6 ol li span {
+  margin-left: 40px;
+}
+
+.col-6 ol li:before {
+  content: counter(item) " ";
+  counter-increment: item;
+  color: white;
+  background: #318ce7;
+  position: absolute;
+  top: 50%;
+  margin-top: -1em;
+  height: 2em;
+  width: 2em;
+  line-height: 2em;
+  text-align: center;
+  border-radius: 2em;
+  font-weight: 700;
+}
+.col-6 .left-side p {
+  padding-left: 40px;
+  padding-right: 40px;
+  text-align: justify;
+}
+
+.col-6 button {
+  padding: 10px 30px;
+  margin-right: 30px;
+  margin-top: 20px;
+}
+.col-6 .students-mentor {
+  padding-top: 25px;
+}
+
+.col-6 img {
+  height: 500px;
+}
+.col-6 .card-body {
+  padding: 20px;
+}
